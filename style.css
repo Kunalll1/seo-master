@@ -52,3 +52,53 @@
     --body-font-family: 'Poppins', sans-serif;
 
 }
+/* Styling navigation container */
+.navbar-container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 23.5rem;
+    padding: 3rem;
+}
+
+/* setting with to LOGO img */
+.navbar-container div img {
+    height: 4.4rem;
+}
+
+/* styling the list of MENU item */
+.list {
+    display: flex;
+    gap: 3rem;
+    font-size: 1.6rem;
+    list-style-type: none;
+    font-family: var(--body-font-family);
+    color: var(--light-gray-color);
+}
+
+/* targeating the first child of MENU List */
+.list :nth-child(1) {
+    font-weight: 700;
+    position: relative;
+    color: var(--black-color);
+}
+
+/* styling the nev button */
+.nav-button {
+    padding: 1rem;
+    background-color: var(--main-color);
+   border-radius: 1rem;
+   width: 10.1rem;
+   color: var(--light-gray-color);
+}
+
+/* Bringing MENU list to left and closing gap between logo and menu */
+.grow-list {
+    margin-left: -18rem;
+}
+
+/* adding gap to the Nav Button to right */
+.button-group {
+    margin-left: 20rem;
+}
