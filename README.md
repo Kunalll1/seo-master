@@ -4,6 +4,8 @@
 
 1. [Introduction](#introduction)
 2. [Project Approach](#project-approach)
+   - [Nav Section](#nav-section)
+   - [Hero Section](#hero-section)
 3. [What I Learn Form This Project](#what-learn)
 
 ---
@@ -30,4 +32,18 @@ When I started working on this project, I knew that it would be a big undertakin
 
 First I began working on the navigation section of the project, I divided the section into three parts: the **LOGO**, the **Main Navigation links**, and the **Button** Div.
 
-When I began working on the Nav Section first things I wanted to do was to align all the Div's from horizontal to vertical.
+## Hero Section
+
+<img src="https://cdn.discordapp.com/attachments/950339822118133800/1063444237556908183/Untitled_design_2.png">
+
+I began working on the Hero Section. Divided the Hero section into two parts, the first with the Content like- Title, description & Button, and the Second div with the hero Image.
+
+# What I Learn Form This Project
+
+I have learned a lot of things from this project like:-
+
+- How to Reseat all the Default styling of CSS.
+- How can we use modern property ROOT inside of our project?
+- How to CSS Selector Properties and much more.
+
+## [CHECK THIS PROJECT LIVE](https://seo-master-kunal.pages.dev/)
