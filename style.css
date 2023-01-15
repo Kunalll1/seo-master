@@ -1,0 +1,54 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+
+/* Resetting all the CSS To default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+    }
+    
+    html {
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        scroll-padding-top: 6m;
+        font-size: 62.5%;
+    }
+    
+    body {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* adding Contenter With to 1140px for big screen */
+
+     .container {
+            max-width: 1140px;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+
+/* creating varible to store some default value to the css */
+
+:root {
+
+    --light-gray-color: #cbcbcb;
+    --main-color:#5955b3;
+    --hedding-color: #3c2f60;
+    --black-color: #000000;
+    --hedline-font-family: 'Poppins', sans-serif;;
+    --body-font-family: 'Poppins', sans-serif;
+
+}
